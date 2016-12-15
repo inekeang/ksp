@@ -2,7 +2,8 @@
 SQLyog Enterprise - MySQL GUI v8.12 
 MySQL - 5.5.28 : Database - ksp
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -88,7 +89,7 @@ CREATE TABLE `nasabah` (
 
 /*Data for the table `nasabah` */
 
-insert  into `nasabah`(`id`,`kode`,`nama`,`departemen`,`alamat`,`hp`,`keanggotaan_id`,`tgl_masuk`) values (1,'1001','Apo','0','Merr, Surabaya','',2,'2016-01-01'),(2,'1002','Inang','0','Tenggilis, Surabaya','',1,'2016-02-01'),(3,'1003','Mukidi','0','Pakis, Surabaya','',3,'2016-02-02');
+insert  into `nasabah`(`id`,`kode`,`nama`,`departemen`,`alamat`,`hp`,`keanggotaan_id`,`tgl_masuk`) values (1,'1001','Ade','0','Jl. Nginden, Surabaya','',2,'2016-01-01'),(2,'1002','InAng','0','Tenggilis, Surabaya','',1,'2016-02-01'),(3,'1003','Rania','0','Jl. Kenjeran, Surabaya','',3,'2016-02-02');
 
 /*Table structure for table `pinjaman` */
 
